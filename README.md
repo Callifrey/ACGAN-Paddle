@@ -41,7 +41,7 @@ visuldl --logdir ./log
 
   |                      Fake Samples(Ours)                      |                 Fake Samples(ACGAN-Pytorch)                  |                         Real Samples                         |
   | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-  | <img src="imgs/fake_samples.png" width = "70%" height = "70%"> | <img src="imgs/fake_samples_pytorch.png" width = "70%" height = "70%"> | <img src="imgs/real_samples.png" width = "70%" height = "70%"> |
+  | <img src="imgs/fake_samples.png" width = "200" height = "200"> | <img src="imgs/fake_samples_pytorch.png" width = "200" height = "200"> | <img src="imgs/real_samples.png" width = "200" height = "200"> |
 
   
 
