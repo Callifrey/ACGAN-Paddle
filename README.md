@@ -41,7 +41,7 @@ visuldl --logdir ./log
 
   |                      Fake Samples(Ours)                      |                 Fake Samples(ACGAN-Pytorch)                  |                         Real Samples                         |
   | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-  | ![fake_samples](./imgs/fake_samples.png){:height="70%" width="70%"} | ![fake_samples](./imgs/fake_samples_pytorch.png){:height="70%" width="70%"} | ![real-samples](./imgs/real_samples.png){:height="70%" width="70%"} |
+  | <img src="imgs/fake_samples.png" width = "70%" height = "70%"> | <img src="imgs/fake_samples_pytorch.png" width = "70%" height = "70%"> | <img src="imgs/real_samples.png" width = "70%" height = "70%"> |
 
   
 
@@ -49,16 +49,16 @@ visuldl --logdir ./log
 
   |           类别           |                        fake_samples1                         |                        fake_samples2                         |                         fake_sample3                         |                         real_samples                         |
   | :----------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-  |   **classes 100-100**    | ![](./imgs/100_110/fake_samples_1.png){:height="70%" width="70%"} | ![](./imgs/100_110/fake_samples_2.png){:height="70%" width="70%"} | ![](./imgs/100_110/fake_samples_3.png){:height="70%" width="70%"} | ![](./imgs/100_110/real_samples.png){:height="70%" width="70%"} |
-  | **random   10-classess** | ![](./imgs/random_10_class/fake_samples1.png){:height="70%" width="70%"} | ![](./imgs/random_10_class/fake_samples2.png){:height="70%" width="70%"} | ![](./imgs/random_10_class/fake_samples3.png){:height="70%" width="70%"} | ![](./imgs/random_10_class/real_samples.png){:height="70%" width="70%"} |
+  |   **classes 100-100**    | <img src="imgs/100_110/fake_samples_1.png" width = "70%" height = "70%"> | <img src="imgs/100_110/fake_samples_2.png" width = "70%" height = "70%"> | <img src="imgs/100_110/fake_samples_3.png" width = "70%" height = "70%"> | <img src="imgs/100_110/real_samples.png" width = "70%" height = "70%"> |
+  | **random   10-classess** | <img src="imgs/random_10_class/fake_samples1.png" width = "70%" height = "70%"> | <img src="imgs/random_10_class/fake_samples2.png" width = "70%" height = "70%"> | <img src="imgs/random_10_class/fake_samples3.png" width = "70%" height = "70%"> | <img src="imgs/random_10_class/real_samples.png" width = "70%" height = "70%"> |
 
   
 
   #### 训练Log示意（class id:10-20）
   
-  | Accuracy                                           | D Loss                                                | G Loss                                                |
-  | -------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
-  | ![](./imgs/log/Acc.png){:height="70%" width="70%"} | ![](./imgs/log/D_loss.png){:height="70%" width="70%"} | ![](./imgs/log/G_loss.png){:height="70%" width="70%"} |
+  | Accuracy                                                  | D Loss                                                       | G Loss                                                       |
+  | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | <img src="imgs/log/Acc.png" width = "70%" height = "70%"> | <img src="imgs/log/D_loss.png" width = "70%" height = "70%"> | <img src="imgs/log/G_loss.png" width = "70%" height = "70%"> |
   
   
   
