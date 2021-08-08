@@ -39,26 +39,26 @@ visuldl --logdir ./log
 
 * 生成的图像与真实图像(ImageNet class 10-20)
 
-  |            Fake Samples(Ours)            |           Fake Samples(ACGAN-Pytorch)            |               Real Samples               |
-  | :--------------------------------------: | :----------------------------------------------: | :--------------------------------------: |
-  | ![fake_samples](./imgs/fake_samples.png) | ![fake_samples](./imgs/fake_samples_pytorch.png) | ![real-samples](./imgs/real_samples.png) |
+  |                      Fake Samples(Ours)                      |                 Fake Samples(ACGAN-Pytorch)                  |                         Real Samples                         |
+  | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+  | ![fake_samples](./imgs/fake_samples.png){:height="70%" width="70%"} | ![fake_samples](./imgs/fake_samples_pytorch.png){:height="70%" width="70%"} | ![real-samples](./imgs/real_samples.png){:height="70%" width="70%"} |
 
   
 
 * 更多类别结果对比(class id:100-100,  随机挑选10类别)
 
-  |           类别           |                 fake_samples1                 |                 fake_samples2                 |                 fake_sample3                  |                 real_samples                 |
-  | :----------------------: | :-------------------------------------------: | :-------------------------------------------: | :-------------------------------------------: | :------------------------------------------: |
-  |   **classes 100-100**    |    ![](./imgs/100_110/fake_samples_1.png)     |  **![](./imgs/100_110/fake_samples_2.png)**   |  **![](./imgs/100_110/fake_samples_3.png)**   |   **![](./imgs/100_110/real_samples.png)**   |
-  | **random   10-classess** | ![](./imgs/random_10_class/fake_samples1.png) | ![](./imgs/random_10_class/fake_samples2.png) | ![](./imgs/random_10_class/fake_samples3.png) | ![](./imgs/random_10_class/real_samples.png) |
+  |           类别           |                        fake_samples1                         |                        fake_samples2                         |                         fake_sample3                         |                         real_samples                         |
+  | :----------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+  |   **classes 100-100**    | ![](./imgs/100_110/fake_samples_1.png){:height="70%" width="70%"} | ![](./imgs/100_110/fake_samples_2.png){:height="70%" width="70%"} | ![](./imgs/100_110/fake_samples_3.png){:height="70%" width="70%"} | ![](./imgs/100_110/real_samples.png){:height="70%" width="70%"} |
+  | **random   10-classess** | ![](./imgs/random_10_class/fake_samples1.png){:height="70%" width="70%"} | ![](./imgs/random_10_class/fake_samples2.png){:height="70%" width="70%"} | ![](./imgs/random_10_class/fake_samples3.png){:height="70%" width="70%"} | ![](./imgs/random_10_class/real_samples.png){:height="70%" width="70%"} |
 
   
 
   #### 训练Log示意（class id:10-20）
   
-  | Accuracy                | D Loss                     | G Loss                     |
-  | ----------------------- | -------------------------- | -------------------------- |
-  | ![](./imgs/log/Acc.png) | ![](./imgs/log/D_loss.png) | ![](./imgs/log/G_loss.png) |
+  | Accuracy                                           | D Loss                                                | G Loss                                                |
+  | -------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+  | ![](./imgs/log/Acc.png){:height="70%" width="70%"} | ![](./imgs/log/D_loss.png){:height="70%" width="70%"} | ![](./imgs/log/G_loss.png){:height="70%" width="70%"} |
   
   
   
