@@ -49,8 +49,8 @@ visuldl --logdir ./log
 
   |           类别           |                        fake_samples1                         |                        fake_samples2                         |                         fake_sample3                         |                         real_samples                         |
   | :----------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-  |   **classes 100-100**    | <img src="imgs/100_110/fake_samples_1.png" width = "70%" height = "70%"> | <img src="imgs/100_110/fake_samples_2.png" width = "70%" height = "70%"> | <img src="imgs/100_110/fake_samples_3.png" width = "70%" height = "70%"> | <img src="imgs/100_110/real_samples.png" width = "70%" height = "70%"> |
-  | **random   10-classess** | <img src="imgs/random_10_class/fake_samples1.png" width = "70%" height = "70%"> | <img src="imgs/random_10_class/fake_samples2.png" width = "70%" height = "70%"> | <img src="imgs/random_10_class/fake_samples3.png" width = "70%" height = "70%"> | <img src="imgs/random_10_class/real_samples.png" width = "70%" height = "70%"> |
+  |   **classes 100-100**    | <img src="imgs/100_110/fake_samples_1.png" width = "200" height = "200"> | <img src="imgs/100_110/fake_samples_2.png" width = "200" height = "200"> | <img src="imgs/100_110/fake_samples_3.png" width = "200" height = "200"> | <img src="imgs/100_110/real_samples.png" width = "200" height = "200"> |
+  | **random   10-classess** | <img src="imgs/random_10_class/fake_samples1.png" width = "200" height = "200"> | <img src="imgs/random_10_class/fake_samples2.png" width = "200" height = "200"> | <img src="imgs/random_10_class/fake_samples3.png" width = "200" height = "200"> | <img src="imgs/random_10_class/real_samples.png" width = "200" height = "200"> |
 
   
 
@@ -58,7 +58,7 @@ visuldl --logdir ./log
   
   | Accuracy                                                  | D Loss                                                       | G Loss                                                       |
   | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | <img src="imgs/log/Acc.png" width = "70%" height = "70%"> | <img src="imgs/log/D_loss.png" width = "70%" height = "70%"> | <img src="imgs/log/G_loss.png" width = "70%" height = "70%"> |
+  | <img src="imgs/log/Acc.png" width = "200" height = "200"> | <img src="imgs/log/D_loss.png" width = "200" height = "200"> | <img src="imgs/log/G_loss.png" width = "200" height = "200"> |
   
   
   
