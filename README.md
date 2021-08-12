@@ -17,7 +17,9 @@
 
 #### 预训练模型
 
-本复现针对ImageNet抽取10个类别训练ACGAN， 总共训练了三个模型，分别使用了ImageNet 类别ID为10-20、100-110以及随机抽取10个类别，预训练模型见[百度网盘链接](https://pan.baidu.com/s/4rbjmVxi)，其中每个文件夹内有三个文件，分别是生成器模型参数、判别器模型参数以及该组实验对应的log, 请将预训练模型置于[checkpoints](./checkpoints)目录下,测试时设置对应的文件夹路径。
+本复现针对ImageNet抽取10个类别训练ACGAN， 总共训练了三个模型，分别使用了ImageNet 类别ID为10-20、100-110以及随机抽取10个类别，预训练模型见[百度网盘链接](https://pan.baidu.com/s/1ol4sY2-MAyDZPIyWdwomxA)( 提取码: ce8r )其中每个文件夹内有三个文件，分别是生成器模型参数、判别器模型参数以及该组实验对应的log, 请将预训练模型置于[checkpoints](./checkpoints)目录下,测试时设置对应的文件夹路径。
+
+
 
 
 
