@@ -126,7 +126,7 @@ The pre-training model is available at [Baidu Drive](https://pan.baidu.com/s/1ol
 
 * **train.py** parameter description
 
-  | 参数              | 默认值                                             | 说明                           |
+  | Parameters        | Default                                            | Description                    |
   | ----------------- | -------------------------------------------------- | ------------------------------ |
   | **--dataroot**    | str: ‘/media/gallifrey/DJW/Dataset/Imagenet/train’ | Path for training set          |
   | **--workers**     | int : 4                                            | Number of threads              |
@@ -149,7 +149,7 @@ The pre-training model is available at [Baidu Drive](https://pan.baidu.com/s/1ol
 
 * **test.py** parameter description
 
-  | 参数              | 默认值               | 说明                                   |
+  | Parameters        | Default              | Description                            |
   | ----------------- | -------------------- | -------------------------------------- |
   | **--batchSize**   | int: 100             | Number of samole for testing one batch |
   | **--nz**          | int: 110             | Dimension of latent                    |
