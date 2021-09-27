@@ -7,14 +7,14 @@ English| [简体中文](./README_cn.md)
   * [2. Acdcuracy](#2-Accuracy)
   * [3. Dataset](#3-Dataset)
   * [4. Dependency](#4-Dependency)
-  * [5. Quick Start](#5. Quick Start)
-    * [step1:Colne](#step1Clone)
-    * [step2:Training](#step2Training)
-    * [step3:Testing](#step3Testing)
-    * [Check Log](#check-log)
-    * [Pre-trained model](# Pre-trained model)
-  * [6. Code Structure and Description](#6-Code Structure and Description)
-    * [6.1 code structure](#61-code structure)
+  * [5. Quick Start](#5-Quick-Start)
+    * [step1:Colne](#Clone)
+    * [step2:Training](#Training)
+    * [step3:Testing](#Testing)
+    * [Check Log](#Check-log)
+    * [Pre-trained models](# Pre-trained-models)
+  * [6. Code Structure and Description](#6-Code-Structure-and-Description)
+    * [6.1 code structure](#61-code-structure)
     * [6.2 description](#62-description)
   * [7. Results](#7-Results)
   * [8. Model Information](#8-Model-Information)
@@ -104,7 +104,7 @@ Pretrained Models
 
 
 
-### Prediction with pre-trained mode
+### Prediction with pre-trained models
 
 The pre-training model is available at [Baidu Drive](https://pan.baidu.com/s/1ol4sY2-MAyDZPIyWdwomxA)( Extraction code: ce8r ) where there are three files in each folder, which are the generator model parameters, the discriminator model parameters and the log corresponding to the group of experiments, please place the pre-training model in [checkpoints](./checkpoints) directory, and set the path of the corresponding folder when testing.
 
