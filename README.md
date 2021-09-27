@@ -66,7 +66,7 @@ According to the setup in the paper, 1000 image categories are grouped and one g
 * 10,000 images of image category number 100-100 as training set
 * Randomly selected 10 categories with 10,000 images as the training set
 
-## 5. Dependency
+## 4. Dependency
 
 * Hardware：GPU、CPU
 * Framework：PaddlePaddle>=2.0.0
@@ -106,7 +106,7 @@ Pretrained Models
 
 ### Prediction with pre-trained mode
 
-The pre-training model is available at [Baidu Drive](https://pan.baidu.com/s/1ol4sY2-MAyDZPIyWdwomxA)( Extraction code: ce8r ) where there are three files in each folder, which are the generator model parameters, the discriminator model parameters and the log corresponding to the group of experiments, please place the pre-training model in [ checkpoints](. /checkpoints) directory, and set the path of the corresponding folder when testing.
+The pre-training model is available at [Baidu Drive](https://pan.baidu.com/s/1ol4sY2-MAyDZPIyWdwomxA)( Extraction code: ce8r ) where there are three files in each folder, which are the generator model parameters, the discriminator model parameters and the log corresponding to the group of experiments, please place the pre-training model in [checkpoints](./checkpoints) directory, and set the path of the corresponding folder when testing.
 
 ## 6. Code structure and description
 
@@ -126,9 +126,9 @@ The pre-training model is available at [Baidu Drive](https://pan.baidu.com/s/1ol
 │  utils.py                       # Tool classes
 ```
 
-### 6.2 参数说明
+### 6.2 description
 
-* **train.py** 参数说明(部分)
+* **train.py** parameter description
 
   | 参数              | 默认值                                             | 说明                           |
   | ----------------- | -------------------------------------------------- | ------------------------------ |
@@ -151,7 +151,7 @@ The pre-training model is available at [Baidu Drive](https://pan.baidu.com/s/1ol
 
 
 
-* **test.py** 参数说明(部分)
+* **test.py** parameter description
 
   | 参数              | 默认值               | 说明                                   |
   | ----------------- | -------------------- | -------------------------------------- |
