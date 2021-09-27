@@ -23,7 +23,7 @@ English| [简体中文](./README_cn.md)
 
 ![Architecture](./imgs/architecture.png)
 
-This project is based on the PaddlePaddle replication paper**《Conditional Image Synthesis with Auxiliary Classifier GANs 》**(ACGAN), which focuses on adding an auxiliary discriminator to a conditional generative adversarial network (Conditional GAN) to guide the image generation process. The main work of this paper is to add an auxiliary discriminator to conditional generative adversarial networks (CGAs) to guide the image generation process by adding a classification layer to the discriminator of the model to force the generated image classes to be as close as possible to the input labels. Experimentally, ACGAN has been shown to perform well in synthesizing high-resolution images.
+This project is based on the PaddlePaddle replication paper "**Conditional Image Synthesis with Auxiliary Classifier GANs**"(ACGAN), which focuses on adding an auxiliary discriminator to a conditional generative adversarial network (Conditional GAN) to guide the image generation process. The main work of this paper is to add an auxiliary discriminator to conditional generative adversarial networks (CGAs) to guide the image generation process by adding a classification layer to the discriminator of the model to force the generated image classes to be as close as possible to the input labels. Experimentally, ACGAN has been shown to perform well in synthesizing high-resolution images.
 
 **Paper**
 
