@@ -12,7 +12,7 @@ English| [简体中文](./README_cn.md)
     * [step2:Training](#Training)
     * [step3:Testing](#Testing)
     * [Check Log](#Check-log)
-    * [Pre-trained models](# Pre-trained-models)
+    * [Prediction with pre-trained models](#Prediction-with-pre-trained-models)
   * [6. Code Structure and Description](#6-Code-Structure-and-Description)
     * [6.1 code structure](#61-code-structure)
     * [6.2 description](#62-description)
@@ -99,10 +99,6 @@ python test.py --check_path [checkpoints path] --which_epoch [epoch]
 ```python
 visuldl --logdir ./log
 ```
-
-Pretrained Models
-
-
 
 ### Prediction with pre-trained models
 
